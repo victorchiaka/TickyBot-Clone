@@ -215,6 +215,16 @@ nav ul a {
     float: none;
     width: 95%;
     padding: 15px 5px;
-    overflow: auto;
+    /* overflow: hidden; */
   }
+
+  .main-articles {
+    overflow: hidden;
+  }
+
+  /* .main-articles .third-article {
+    float: none;
+    width: 100%;
+    overflow: hidden;
+  } */
 }
