@@ -215,5 +215,6 @@ nav ul a {
     float: none;
     width: 95%;
     padding: 15px 5px;
+    overflow: auto;
   }
 }
