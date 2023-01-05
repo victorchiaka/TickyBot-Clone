@@ -5,6 +5,14 @@
 
 body {
   color: #334858;
+  max-width: 100vw;
+  
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 nav {
@@ -183,7 +191,7 @@ nav ul a {
   .right img {
     width: 270px;
     margin-top: 100px;
-    margin-left: 35px;
+    margin-left: 0px;
   }
 }
 
@@ -192,14 +200,14 @@ nav ul a {
     flex-direction: column;
   }
 
-	.container {
-		padding: 50px 60px;
-	}
+  .container {
+    padding: 50px 60px;
+  }
   .cards .card-1,
   .cards .card-2,
   .cards .card-3 {
-		width: 100%;
-		margin: 15px auto;
+    width: 100%;
+    margin: 15px auto;
   }
 }
 
@@ -209,7 +217,7 @@ nav ul a {
     float: none;
     width: 100%;
   }
-  
+
   .main-articles .first-article,
   .main-articles .second-article {
     float: none;
@@ -221,10 +229,4 @@ nav ul a {
   .main-articles {
     overflow: hidden;
   }
-
-  /* .main-articles .third-article {
-    float: none;
-    width: 100%;
-    overflow: hidden;
-  } */
 }
